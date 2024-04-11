@@ -13,3 +13,29 @@
 - Pull/Push: Prendere i cambiamenti da un repository remoto (pull) o inviare i tuoi cambiamenti ad esso (push).
 
 Sintetizzando in poco parole, Git ti aiuta a tenere traccia delle modifiche al codice facilitando la collaborazione.
+
+### I comandi di git in sintesi:
+
+ - git init: Inizializza un nuovo repository Git nella directory corrente.
+
+ - git clone [url]: Clona un repository esistente nella directory corrente.
+
+ - git add [file]: Aggiunge un file alla staging area per il successivo commit.
+
+ - git commit -m "[messaggio]": Crea un nuovo commit con le modifiche nella staging area, associando un messaggio descrittivo.
+
+ - git status: Mostra lo stato attuale del repository, inclusi i file modificati, aggiunti o eliminati.
+
+ - git push: Carica i commit locali sul repository remoto.
+
+ - git pull: Scarica i cambiamenti dal repository remoto e li applica al repository locale.
+
+ - git branch [nome]: Crea un nuovo branch con il nome specificato.
+
+ - git checkout [branch/nome_file]: Cambia il branch corrente o ripristina un file a una versione precedente.
+
+ - git merge [branch]: Unisce un branch specificato con il branch corrente.
+
+ - git log: Visualizza la cronologia dei commit.
+
+ - git remote add [nome] [url]: Aggiunge un repository remoto con un nome specificato.
