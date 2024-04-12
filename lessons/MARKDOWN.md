@@ -68,18 +68,23 @@ esempio:
 
 Per il codice inline, usa i backtick: \`codice\`. Per blocchi di codice, usa tre backtick o indentazione con quattro spazi.
 
-```markdown
+```
 `codice inline`
 ```
 
 blocco di codice
+````
+```linguaggio codice
+
+````
+---
 
 ````
 ## Tabelle
 
-Creare tabelle usando `-` per le linee orizzontali e `|` per le colonne:
+Creare tabelle usando `-` per le linee orizzontali e `|` per le linee verticali:
 
-```markdown
+
 | Intestazione 1 | Intestazione 2 |
 | -------------- | -------------- |
 | Contenuto 1    | Contenuto 2    |
