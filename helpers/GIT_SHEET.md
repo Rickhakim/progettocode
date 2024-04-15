@@ -79,4 +79,4 @@
 - `git push origin nome_ramo`: Carica un ramo nel repository remoto origin.
 - `git pull origin nome_ramo`: Tira i cambiamenti dal repository remoto origin e fonde con il ramo corrente.
 
-***Non sono tutti i comandi ma solo i più utili.***
+***Non sono tutti i comandi ma solo i più utili al momento.***
