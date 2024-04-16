@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # Git Cheat Sheet
 
 ### Comandi di Base
@@ -27,6 +25,7 @@
 - `git commit -m "Messaggio del commit"`: Esegue un commit con un messaggio descrittivo.
 - `git commit -a -m "Messaggio del commit"`: Aggiunge automaticamente e committa tutti i file modificati.
 - `git commit --amend`: Modifica l'ultimo commit.
+- `git cherry-pick`: Consente di applicare i cambiamenti specifici di un commit a un'altra branch senza dover fare un merge completo. Utile quando desideri solo alcune modifiche da un branch all'altro.
 
 ### Gestione del Repository
 
@@ -80,4 +79,4 @@
 - `git push origin nome_ramo`: Carica un ramo nel repository remoto origin.
 - `git pull origin nome_ramo`: Tira i cambiamenti dal repository remoto origin e fonde con il ramo corrente.
 
-***Non sono tutti i comandi ma solo i più utili.***
+***Non sono tutti i comandi ma solo i più utili al momento.***
